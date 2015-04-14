@@ -56,10 +56,10 @@ class EbayPhonesScraper
   end
 end
 
-phones = EbayPhonesScraper.get_phones('iphone')
+phones = EbayPhonesScraper.get_phones(ARGV[0])
 
-puts "The Cheepest iPhone"
+puts "The Cheepest #{ARGV[0]}"
 puts phones.first
 
-puts "The Dearest iPhone"
+puts "The Dearest #{ARGV[0]}"
 puts phones.last

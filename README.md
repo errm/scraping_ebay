@@ -10,4 +10,21 @@ Install the gems:
 `bundle install`
 
 Run it:
-`bundle exec ruby scraper.rb`
+
+```
+$ bundle exec ruby scraper.rb nokia
+The Cheepest nokia
+Nokia XpressMusic 5310 - Red (Unlocked) Mobile Phone - £12.50
+The Dearest nokia
+Nokia Lumia 820 - 8 GB - Black (Orange) Smartphone - £34.00
+```
+
+or
+
+```
+$ bundle exec ruby scraper.rb iphone
+The Cheepest iphone
+apple iphone 3 - £26.00
+The Dearest iphone
+Apple iPhone 5s - 16 GB - Gold (Unlocked) Smartphone - £299.99
+```
